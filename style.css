@@ -1,0 +1,24 @@
+/* styles.css */
+body {
+    background-color: #bab1b1;
+}
+
+.upload-container {
+    max-width: 500px;
+    margin-top: 100px;
+    padding: 30px;
+    border: 2px solid #e8ecf1;
+    border-radius: 5px;
+}
+
+.custom-file-label::after {
+    content: "Browse";
+}
+
+#result {
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: 5px solid #bab1b1;
+    height: 50px;
+    width: 100px;
+}
